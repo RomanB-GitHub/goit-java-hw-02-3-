@@ -1,5 +1,3 @@
-package goit_java_hw_02_3_;
-
 public class NameEncoderDecoder {
 
     public String encode(String name) {
@@ -27,13 +25,13 @@ public class NameEncoderDecoder {
         return result.substring(str.length());
     }
 
-    public static void main(String[] args) {
-        NameEncoderDecoder nameCode = new NameEncoderDecoder();
+//     public static void main(String[] args) {
+//         NameEncoderDecoder nameCode = new NameEncoderDecoder();
 
-        System.out.println(nameCode.encode("Frankoni"));
+//         System.out.println(nameCode.encode("Frankoni"));
 
-        System.out.println(nameCode.decode("NOTFORYOUFr5nk4n3YESNOTFORYOU"));
+//         System.out.println(nameCode.decode("NOTFORYOUFr5nk4n3YESNOTFORYOU"));
 
-        System.out.println(nameCode.decode("NOTFORYOUNOTFORYOUYESNOTFORYOU"));
-    }
+//         System.out.println(nameCode.decode("NOTFORYOUNOTFORYOUYESNOTFORYOU"));
+//     }
 }
